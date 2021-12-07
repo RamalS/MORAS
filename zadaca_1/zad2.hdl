@@ -1,0 +1,11 @@
+CHIP zad2
+{
+    IN x, y, z;
+    OUT out;
+
+    PARTS:
+
+    Or(a = y, b = z, out = yzor);
+    Not(in = yzor, out = notyz);
+    And(a = x, b = notyz, out = out);
+}

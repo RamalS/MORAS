@@ -1,0 +1,13 @@
+CHIP ZadPa{
+    IN x, y;
+    OUT out;
+
+    PARTS:
+    Not(in=x, out=nx);
+    Not(in=y, out=ny);
+
+    And(a=nx, b=ny, out=nxy);
+
+    Or(a=ny, b=nxy, out=l);
+    Or(a=nx, b=l, out=out);
+}

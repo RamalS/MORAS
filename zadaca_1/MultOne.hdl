@@ -1,0 +1,22 @@
+CHIP MultOne{
+    IN a, n[16];
+    OUT out[16];
+
+    PARTS:
+    And(a=a, b=n[0], out=out[0]);
+    And(a=a, b=n[1], out=out[1]);
+    And(a=a, b=n[2], out=out[2]);
+    And(a=a, b=n[3], out=out[3]);
+    And(a=a, b=n[4], out=out[4]);
+    And(a=a, b=n[5], out=out[5]);
+    And(a=a, b=n[6], out=out[6]);
+    And(a=a, b=n[7], out=out[7]);
+    And(a=a, b=n[8], out=out[8]);
+    And(a=a, b=n[9], out=out[9]);
+    And(a=a, b=n[10], out=out[10]);
+    And(a=a, b=n[11], out=out[11]);
+    And(a=a, b=n[12], out=out[12]);
+    And(a=a, b=n[13], out=out[13]);
+    And(a=a, b=n[14], out=out[14]);
+    And(a=a, b=n[15], out=out[15]);
+}
