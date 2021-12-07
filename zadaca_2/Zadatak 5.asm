@@ -1002,151 +1002,121 @@ M = D
     M = M + D
 
     //0
-    @0
-    D = A
     @address
     A = M 
-    M = D
+    M = 0
     //1
     @32
     D = A
     @address
     M = M + D
-    @0
-    D = A
     @address
     A = M 
-    M = D
+    M = 0
     //2
     @32
     D = A
     @address
     M = M + D
-    @0
-    D = A
     @address
     A = M 
-    M = D
+    M = 0
     //3
     @32
     D = A
     @address
     M = M + D
-    @0
-    D = A
     @address
     A = M 
-    M = D
+    M = 0
     //4
     @32
     D = A
     @address
     M = M + D
-    @0
-    D = A
     @address
     A = M 
-    M = D
+    M = 0
     //5
     @32
     D = A
     @address
     M = M + D
-    @0
-    D = A
     @address
     A = M 
-    M = D
+    M = 0
     //6
     @32
     D = A
     @address
     M = M + D
-    @0
-    D = A
     @address
     A = M 
-    M = D
+    M = 0
     //7
     @32
     D = A
     @address
     M = M + D
-    @0
-    D = A
     @address
     A = M 
-    M = D
+    M = 0
     //8
     @32
     D = A
     @address
     M = M + D
-    @0
-    D = A
     @address
     A = M 
-    M = D
+    M = 0
     //9
     @32
     D = A
     @address
     M = M + D
-    @0
-    D = A
     @address
     A = M 
-    M = D
+    M = 0
     //10
     @32
     D = A
     @address
     M = M + D
-    @0
-    D = A
     @address
     A = M 
-    M = D
+    M = 0
     //11
     @32
     D = A
     @address
     M = M + D
-    @0
-    D = A
     @address
     A = M 
-    M = D
+    M = 0
     //12
     @32
     D = A
     @address
     M = M + D
-    @0
-    D = A
     @address
     A = M 
-    M = D
+    M = 0
     //13
     @32
     D = A
     @address
     M = M + D
-    @0
-    D = A
     @address
     A = M 
-    M = D
+    M = 0
     //14
     @32
     D = A
     @address
     M = M + D
-    @0
-    D = A
     @address
     A = M 
-    M = D
+    M = 0
 
 
     @KEYBOARD
@@ -1185,8 +1155,6 @@ M = D
     (NOINCR)
         @KEYBOARD// Return to keyboard
         0; JMP
-
-
 
 
 //_END____
