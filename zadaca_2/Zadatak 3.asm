@@ -19,10 +19,15 @@ D = A
 @R3
 M = D
 
+@1
+D = A
+@R4
+M = D
+
 // Ako je R1 > R0
 @R0
 D = M
-@R4
+@R5
 M = D
 
 @R1
@@ -32,7 +37,7 @@ D = D - M
 D; JGT
 @R1
 D = M
-@R4
+@R5
 M = D
 (M1)
 
@@ -44,7 +49,7 @@ D = D - M
 D; JGT
 @R2
 D = M
-@R4
+@R5
 M = D
 (M2)
 
@@ -56,13 +61,25 @@ D = D - M
 D; JGT
 @R3
 D = M
-@R4
+@R5
 M = D
 (M3)
+
+// Ako je R3 > R4
+@R4
+D = D - M
+
+@M4
+D; JGT
+@R4
+D = M
+@R5
+M = D
+(M4)
+
 
 
 //Zavrsi program
 (END_PROG)
 @END_PROG
 0;JMP
-
