@@ -1,0 +1,31 @@
+sp
+call main.Main 0
+ep
+
+function Main 0
+	push constant 3
+    push constant 1
+    push constant 8
+    call mid.Mid 3
+    push constant 4
+    push constant 5
+    push constant 6
+    call mid.Mid 3
+	push constant 1
+    push constant 2
+    push constant 3
+    call mid.Mid 3
+    push constant 5
+    call fibonacci.fibonacci 1
+    push constant 9
+    push constant 4 
+    call divmod.div 2
+    push constant 9
+    push constant 4 
+    call divmod.mod 2
+	push constant 100
+	push constant 10 
+	push constant 4
+	call bsearch.BS 3
+	label END
+	goto END
